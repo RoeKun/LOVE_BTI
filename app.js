@@ -237,17 +237,16 @@ function getPersonalityById(id) {
 // ============================================================
 
 var SCENE_IMAGES = {
-  // 使用 Unsplash 高质量免费图片（带自动优化参数）
-  sunset_street: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1920&q=80&fit=crop', // 城市黄昏街道
-  convenience_store: 'https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=1920&q=80&fit=crop', // 便利店外景
-  coffee_shop: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1920&q=80&fit=crop', // 咖啡馆
-  rainy_street: 'https://images.unsplash.com/photo-1519692933481-e162a57d6721?w=1920&q=80&fit=crop', // 雨中城市街道
-  rooftop_sunset: 'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=1920&q=80&fit=crop', // 天台日落
-  park_autumn: 'https://images.unsplash.com/photo-1507371341162-763b5e419408?w=1920&q=80&fit=crop', // 秋日公园
-  starry_night: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1920&q=80&fit=crop', // 星空夜景
-  night_store: 'https://images.unsplash.com/photo-1555963153-dba0ba44c871?w=1920&q=80&fit=crop', // 夜晚店铺
-  cafe_interior: 'https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1920&q=80&fit=crop', // 咖啡馆内景
-  rainy_couple: 'https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?w=1920&q=80&fit=crop', // 雨中浪漫场景
+  sunset_street: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/4b299b4c-0c13-4065-a06f-62925ba6a1f7/image_1775816046_2_1.jpg',
+  convenience_store: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/192ac2ea-a2be-4a27-8b91-dfdd56c257bd/image_1775816054_1_3.jpg',
+  coffee_shop: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/6c05d414-6189-4f26-a44c-c3207c77243a/image_1775816072_1_1.jpg',
+  rainy_street: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/df552b5a-99c6-410a-b9a6-3bf7cb8c9faf/image_1775816081_3_1.jpg',
+  rooftop_sunset: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/554199d0-b622-4d68-9a26-8b07a0ece535/image_1775816094_2_1.jpg',
+  park_autumn: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/158a1e6c-5166-4d9d-842c-675efba9f437/image_1775816104_1_1.jpg',
+  starry_night: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/8e8822a8-c9e5-406b-895b-d7412203ab29/image_1775816112_1_1.jpg',
+  night_store: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/6122c4fe-16a4-42ca-a372-81381ed6379e/image_1775816126_2_1.jpg',
+  cafe_interior: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/5af5b21e-7cac-4092-b668-9b1c3bdc0f5d/image_1775816136_2_1.jpg',
+  rainy_couple: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/9b7a471c-ff78-423f-a717-f7843deb7cbc/image_1775816147_2_3.jpg',
 };
 
 var CHAPTERS = [
